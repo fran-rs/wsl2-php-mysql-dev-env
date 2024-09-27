@@ -52,6 +52,11 @@ GRANT GRANT OPTION ON *.* TO 'lucy'@'localhost';
 FLUSH PRIVILEGES;
 exit
 ```
+Reiniciar servicio mysql
+```bash
+sudo service mysql start
+```
+
 Verifica la conexión con el nuevo usuario:
 
 ```bash
