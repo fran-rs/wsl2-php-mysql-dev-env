@@ -50,8 +50,9 @@ FLUSH PRIVILEGES;
 
 GRANT GRANT OPTION ON *.* TO 'lucy'@'localhost';
 FLUSH PRIVILEGES;
-Verifica la conexión con el nuevo usuario:
 ```
+Verifica la conexión con el nuevo usuario:
+
 ```bash
 mysql -u lucy -p
 ```
