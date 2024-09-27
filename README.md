@@ -67,6 +67,10 @@ Si no funciona el paso anterior agregar la ip:
 ```bash
 mysql -u lucy -p -h 127.0.0.1
 ```
+Salir del editor mysql
+```sql
+exit
+```
 4. Instalar Apache
 Instala el servidor web Apache:
 
