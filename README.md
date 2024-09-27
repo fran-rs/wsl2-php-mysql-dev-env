@@ -78,6 +78,11 @@ Instala el servidor web Apache:
 
 sudo apt install apache2
 ```
+Actualizar servicio de apache
+```bash
+
+sudo service apache2 restart
+```
 Puedes verificarlo ingresando a http://localhost en tu navegador.
 
 5. Instalar PHP para Apache
