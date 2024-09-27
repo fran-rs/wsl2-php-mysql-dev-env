@@ -50,6 +50,7 @@ FLUSH PRIVILEGES;
 
 GRANT GRANT OPTION ON *.* TO 'lucy'@'localhost';
 FLUSH PRIVILEGES;
+exit
 ```
 Verifica la conexión con el nuevo usuario:
 
