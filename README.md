@@ -77,17 +77,19 @@ Instala el servidor web Apache:
 ```bash
 
 sudo apt install apache2
-Puedes verificarlo ingresando a http://localhost en tu navegador.
 ```
+Puedes verificarlo ingresando a http://localhost en tu navegador.
+
 5. Instalar PHP para Apache
 Instala el módulo de PHP para Apache:
 
 ```bash
 
 sudo apt install libapache2-mod-php
+```
 6. Instalar la Extensión de MySQL para PHP
 Instala la extensión de MySQL para que PHP pueda comunicarse con MySQL:
-```
+
 
 ```bash
 sudo apt install php-mysql
@@ -168,8 +170,9 @@ Crea un archivo info.php para verificar la instalación de PHP:
 
 ```bash
 sudo vim info.php
-Agrega el siguiente código:
 ```
+Agrega el siguiente código:
+
 ```php
 <?php
 phpinfo();
