@@ -22,11 +22,14 @@ sudo apt install php
 php -v
 ```
 
-3. Instalar MySQL
+3. Instalar MySQL y reiniciar servicio
 Instala el servidor MySQL:
 
 ```bash
 sudo apt install mysql-server
+```
+```bash
+sudo service mysql start
 ```
 Configurar un Usuario de MySQL
 Inicia sesión como root en MySQL:
