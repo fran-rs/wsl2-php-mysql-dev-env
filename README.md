@@ -62,6 +62,11 @@ Verifica la conexión con el nuevo usuario:
 ```bash
 mysql -u lucy -p
 ```
+Si no funciona el paso anterior agregar la ip: 
+
+```bash
+mysql -u lucy -p -h 127.0.0.1
+```
 4. Instalar Apache
 Instala el servidor web Apache:
 
